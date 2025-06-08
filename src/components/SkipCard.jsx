@@ -7,7 +7,7 @@ const SkipCard = ({ skip, isSelected, onSelect }) => {
     >
       <div className="relative">
         <img
-          src={"/src/assets/skip.jpg"}
+          src={"/skip.jpg"}
           alt={`${skip.size} Yard Skip`}
           className="w-full h-40 object-cover rounded"
         />

@@ -16,7 +16,7 @@ export const useSkips = () => {
           hirePeriod: `${item.hire_period_days} day`,
           price: Math.round(item.price_before_vat),
           size: item.size,
-          imageUrl: "/src/assets/skip.jpg",
+          imageUrl: "/skip.jpg",
         }));
         setSkips(enriched);
         setLoading(false);
