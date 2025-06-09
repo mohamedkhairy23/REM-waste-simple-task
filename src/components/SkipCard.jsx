@@ -6,12 +6,10 @@ const SkipCard = ({ skip, isSelected, onSelect }) => {
       }`}
       onClick={() => onSelect(skip)}
     >
-      {/* Left Accent if Selected */}
       {isSelected && (
         <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-600 rounded-l-2xl" />
       )}
 
-      {/* Image Section */}
       <div className="w-36 h-36 rounded-xl overflow-hidden flex-shrink-0">
         <img
           src="/skip.jpg"
@@ -20,7 +18,6 @@ const SkipCard = ({ skip, isSelected, onSelect }) => {
         />
       </div>
 
-      {/* Content Section */}
       <div className="ml-4 flex flex-col justify-between flex-grow">
         <div>
           <div className="flex items-center gap-2 mb-1">
@@ -45,7 +42,7 @@ const SkipCard = ({ skip, isSelected, onSelect }) => {
                 : "bg-white border border-gray-300 text-gray-700 hover:bg-gray-100"
             }`}
             onClick={(e) => {
-              e.stopPropagation(); // Prevent parent onClick
+              e.stopPropagation();
               onSelect(skip);
             }}
           >
