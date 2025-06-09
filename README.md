@@ -3,3 +3,5 @@ Hello There, In the task I structured a project to Components, Pages, Hooks, and
 ## For redesigning: 
 # I changed the skip card component from a vertical card to a horizontal card with changes in styling.
 # I changed the selected skip bar component styling to be more impressive.
+
+![Rem waste screen](https://github.com/user-attachments/assets/9b1ea569-876c-4bb2-80df-eb9a302bf6f0)
